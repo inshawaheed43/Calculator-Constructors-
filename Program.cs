@@ -66,6 +66,8 @@
 
 
 
+// CONSTRUCTOR
+
 
 class Const
 {
@@ -74,9 +76,32 @@ class Const
         Const c = new Const();
         Console.ReadLine();
     }
+    //IT'S A DEFAULT CONSTRUSTOR AS IT CONTAINS NO PARAMETER AND ARGUMENTS
 
     public Const()
     {
         Console.WriteLine("Constructor invokes........");
     }
+
+    
+    
+
+}
+public class Employees
+{
+    int empId;
+    string empName;
+    int empAge;
+
+
+    public Employees(int empId, string empName, int empAge )
+    {
+        this.empId = empId;
+        this.empName = empName;
+        this.empAge = empAge;
+
+
+    }
+
+
 }
