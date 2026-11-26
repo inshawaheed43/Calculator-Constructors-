@@ -25,11 +25,14 @@ namespace Calculator_in_C_
         }
         public Constuct()
         {
-
+            Console.WriteLine("this is c1");
         }
         public Constuct(int age, string name)
         {
-             //this.age;
+             this.age = age;
+            this.name = name;
+
+            Console.WriteLine("This is parameterized constructor: {}", age + name);
 
 
 
