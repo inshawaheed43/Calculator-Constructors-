@@ -49,16 +49,17 @@ namespace Calculator_in_C_
 
 class BaseClass
 {  
-    public BaseClass()
+    public BaseClass(string message)
+
     {
-        Console.WriteLine("This is the constructor ofdxcfdddddddddd base class");
+        Console.WriteLine(message);
     }
 }
 
 class DerivedClass : BaseClass
 {
 
-    public DerivedClass()
+    public DerivedClass() : base("Hellollllllllllllllllloooooooooooooooooooyyyyyyyyyyyy")
     {
         Console.WriteLine("this is the constructor of derived class!");
 
