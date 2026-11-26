@@ -4,7 +4,35 @@ using System.Text;
 
 namespace Calculator_in_C_
 {
-    internal class constuct
-    {
+    internal class Constuct
+    { string name;
+        int age;
+
+
+        //CONSTRUCTOR OVERLOADING MEIN AP SAME CONSTRUCTOR BNA SKTE HO BUT WITH 
+        // DIFFERENT TYPES, BUT BUT YOUR PARAMETER NUMBERS CAN BE CHANGE
+
+//OK WE CAN CREATE MULTIPLE CONSTRUCTOR IN A  CLASS 
+// BUT IT'S TYPE SHOULD BE DIFFERENT, MEANS IF YOU'VE MADE A DEFAULT CONSTRUCTOR
+// THEN OTHER ONE WOULD BE PARAMETERIZED CONSTRUCTOR
+
+
+
+
+         internal void consOver()
+        {
+
+        }
+        public Constuct()
+        {
+
+        }
+        public Constuct(int age, string name)
+        {
+             //this.age;
+
+
+
+        }
     }
 }

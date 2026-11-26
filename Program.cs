@@ -1,4 +1,6 @@
-﻿class Calcultor
+﻿using Calculator_in_C_;
+
+class Calcultor
 {
 
 
@@ -25,7 +27,7 @@
         Console.WriteLine(result);
     }
 
-    static void Main()
+  internal static void Main()
     {
         Console.WriteLine("Enter 1st number:");
         int num1 = int.Parse(Console.ReadLine());
@@ -60,6 +62,13 @@
         {
             Console.WriteLine("Invalid Operator");
         }
+
+
+        Constuct obj = new Constuct();
+        obj.consOver();
+
+
+
     }
 
 
@@ -72,7 +81,7 @@
 
 class Const
 {
-    static void Main()
+    internal void Main()
     {
         Const c = new Const();
         Console.ReadLine();
@@ -116,7 +125,7 @@ public class Employees
     {
         return this.empAge;
     }
-    static void Main()
+   internal void Main()
     {
         Employees p = new Employees(11, "Insha",23) ;
         Console.WriteLine("Employee's Id is : {}", p.getId);
@@ -126,3 +135,4 @@ public class Employees
     }
 
 }
+
