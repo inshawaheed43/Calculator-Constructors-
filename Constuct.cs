@@ -37,5 +37,30 @@ namespace Calculator_in_C_
 
 
         }
+
+
+
+
+
+    }
+}
+
+// CONSTRUCTOR IN INHERITANCE
+
+class BaseClass
+{  
+    public BaseClass()
+    {
+        Console.WriteLine("This is the constructor ofdxcfdddddddddd base class");
+    }
+}
+
+class DerivedClass : BaseClass
+{
+
+    public DerivedClass()
+    {
+        Console.WriteLine("this is the constructor of derived class!");
+
     }
 }
