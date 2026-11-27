@@ -6,7 +6,7 @@
 class Over
 {
 
-    public static void Main()
+    public void Main()
     {
         //Constuct obj = new Constuct(23, "Insha");
 
@@ -33,8 +33,8 @@ class Over
 
 
         //FOR STATIC CONSTRUCTOR 
-        staticConstuctor obj3 = new staticConstuctor();
-        obj3.staticConstrutor();
+        //staticConstuctor obj3 = new staticConstuctor();
+        //obj3.staticConstrutor();
 
 
     }
